@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #2C2C2C;
+        color: aliceblue;
+    }
+
+}
