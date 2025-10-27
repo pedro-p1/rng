@@ -1,10 +1,21 @@
 body{
     font-family: sans-serif;
     background-color: aliceblue;
+    text-align: center;
+}
+h1{
+    cursor: default;
 }
 
-h1{
-    text-align: center;
+.generate{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid;
+    border-color: aqua;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,5 +23,7 @@ h1{
         background-color: #2C2C2C;
         color: aliceblue;
     }
-
+    .generate{
+        color:aliceblue
+    }
 }
