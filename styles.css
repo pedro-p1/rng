@@ -1,3 +1,10 @@
+* {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Edge */
+  user-select: none;         /* Standard */
+}
+
 body{
     font-family: sans-serif;
     background-color: aliceblue;
@@ -7,15 +14,21 @@ h1{
     cursor: default;
 }
 
+h2{
+    font-size: 70px;
+    font-weight: normal;
+    color: aqua;
+}
 .generate{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     background-color: transparent;
-    border: solid;
+    border: 5px, solid;
     border-color: aqua;
     font-size: 30px;
     cursor: pointer;
+    color: black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,4 +39,10 @@ h1{
     .generate{
         color:aliceblue
     }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
 }
