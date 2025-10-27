@@ -11,9 +11,6 @@ body{
     text-align: center;
     padding-top: env(safe-area-inset-top);
 }
-h1{
-    cursor: default;
-}
 
 h2{
     font-size: 70px;
