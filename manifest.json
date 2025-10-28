@@ -1,0 +1,6 @@
+{
+"name": "Random Number Generator",
+"short_name": "RNG",
+"display": "standalone",
+"orientation": "portrait"
+}

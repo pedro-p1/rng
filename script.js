@@ -3,10 +3,6 @@ let digits = 2
 const display = document.getElementById("generate")
 const digit_button = document.getElementById("digit")
 
-if (screen.orientation) {
-    screen.orientation.lock('portrait')
-}
-
 function generate(){
     if (digits == 2) {
         number = Math.floor(Math.random() * (99 - 10 + 1)) + 10
