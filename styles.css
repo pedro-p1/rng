@@ -11,6 +11,22 @@ body{
     text-align: center;
     padding-top: env(safe-area-inset-top);
 }
+div{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.digit{
+    height: 60px;
+    width: 250px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: solid;
+    border-color: transparent;
+    font-size: 20px;
+    cursor: pointer;;
+}
 
 h2{
     font-size: 70px;
@@ -23,7 +39,7 @@ h2{
     width: 200px;
     border-radius: 50%;
     background-color: transparent;
-    border: 25px, solid;
+    border: 30px, solid;
     border-color: aqua;
     font-size: 30px;
     cursor: pointer;
