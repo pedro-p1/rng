@@ -1,6 +1,7 @@
 let number = 0
 let digits = 2
 const display = document.getElementById("generate")
+const digit_button = document.getElementById("digit")
 
 function generate(){
     if (digits == 2) {
@@ -11,4 +12,15 @@ function generate(){
     }
 
     display.innerText = number;
+}
+
+function digit(){
+    if (digits == 2){
+        digits = 3
+    }
+    else{
+        digits = 2
+    }
+
+    digit_button.innerText = `${digits} digit`;
 }

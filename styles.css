@@ -25,6 +25,7 @@ div{
     border: solid;
     border-color: transparent;
     font-size: 20px;
+    color: black;
     cursor: pointer;;
 }
 
@@ -32,14 +33,14 @@ h2{
     font-size: 70px;
     font-weight: normal;
     color: aqua;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 .generate{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     background-color: transparent;
-    border: 30px, solid;
+    border: 70px, solid;
     border-color: aqua;
     font-size: 30px;
     cursor: pointer;
