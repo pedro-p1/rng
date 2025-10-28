@@ -22,8 +22,7 @@ div{
     width: 250px;
     background-color: aqua;
     border-radius: 15px;
-    border: solid;
-    border-color: transparent;
+    border: 0px solid;
     font-size: 20px;
     color: black;
     cursor: pointer;;
@@ -40,7 +39,7 @@ h2{
     width: 200px;
     border-radius: 50%;
     background-color: transparent;
-    border: 70px, solid;
+    border: 7px solid;
     border-color: aqua;
     font-size: 30px;
     cursor: pointer;
